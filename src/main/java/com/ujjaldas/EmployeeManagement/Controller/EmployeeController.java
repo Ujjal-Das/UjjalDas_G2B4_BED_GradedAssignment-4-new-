@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.ujjaldas.EmployeeManagement.Entity.Employee;
+import com.ujjaldas.EmployeeManagement.Service.EmployeeService;
 
 @RestController
 @RequestMapping("/api/employees")

@@ -1,10 +1,9 @@
 package com.ujjaldas.EmployeeManagement.Service;
 
-import javax.management.relation.Role;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.ujjaldas.EmployeeManagement.Entity.Role;
 import com.ujjaldas.EmployeeManagement.Repository.RoleRepository;
 
 @Service

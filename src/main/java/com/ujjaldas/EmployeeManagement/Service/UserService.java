@@ -1,8 +1,10 @@
 package com.ujjaldas.EmployeeManagement.Service;
 
-import org.springframework.security.core.userdetails.User;
+import com.ujjaldas.EmployeeManagement.Entity.User;
 
 public interface UserService {
     User addUser(User user);
+
+
    
 }
