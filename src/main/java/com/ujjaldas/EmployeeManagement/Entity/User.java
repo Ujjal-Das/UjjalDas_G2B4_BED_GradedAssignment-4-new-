@@ -17,6 +17,7 @@ public class User {
     private Long id;
     private String username;
     private String password;
+    private boolean enabled;
 
     @ManyToMany(fetch = FetchType.EAGER)
     private Set<Role> roles;
@@ -29,6 +30,15 @@ public class User {
         this.username = username;
         this.password = password;
         this.roles = roles;
+        this.enabled = true;
+    }
+    
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
     }
 
 	public Long getId() {
@@ -71,5 +81,6 @@ public class User {
 		this.roles = roles;
 	}
 
+	
     
 }
